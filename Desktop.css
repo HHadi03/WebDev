@@ -1,0 +1,107 @@
+header{
+    background-color: #f1a903;
+    border-radius:5px;
+	display:flex;
+	justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.ContactUsLogo{
+    background-color: #f1a903;
+}
+
+.ContactUsLogo img{
+    padding: 5px;
+    border-radius: 3px;
+    width: 12%;
+}
+
+.logo img{
+    border-radius: 3px;
+    width: 100%;
+}
+
+body img{
+    text-align: center;
+}
+
+.logo{
+    width: 12%;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer{
+    max-width: 1200px;
+    margin: auto;
+    position: bottom;
+    clear: both;
+    padding: 7px;
+}
+
+#image{
+    max-width: 850px;
+    padding: 30px;
+}
+
+h2{
+    text-align: left;
+    font-size: 24px;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.sidebar{
+    background-color: wheat;
+    margin: 0px 0px 0px 15px;
+    padding: 30px;
+    float: right;
+    border:1px solid wheat;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: inline;
+}
+
+.nav a{
+    font-weight: 900;
+}
+
+.button{
+    font-weight: 900;
+}
+
+#img img{
+    width: 180px;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 300px 0px 0px 0px;
+}
+
+#designimage
+{
+    padding: 18px;
+}
+
+.content p{
+    font-size: 20px;
+}
+
+#coursesimage{
+    padding: 18px;
+}
+
+.content h2{
+    padding-left: 10px;
+    font-size: 24px;
+}
+

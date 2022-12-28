@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&family=Saira+Condensed:wght@100;200&display=swap');
+
+body{
+    background-color: #B09E76;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.logo img {
+    border-radius: 10px;
+    width: 20%;
+}
+
+.logo{
+    text-align: center;
+}
+
+.ContactUsLogo{
+    text-align: center;
+}
+
+.ContactUsLogo img{
+    border-radius: 10px;
+    width:20%
+}
+
+p em{
+    font-weight: 450;
+    font-style: italic;
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+	margin:30px 10px 10px 0;	
+	font-size:0.8em;
+	text-align:center;
+	font-style:italic;
+}
+
+h1{
+    border-top: 1px solid wheat;
+    border-bottom: 1px solid wheat;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 22px;
+}
+
+#image img {
+    border-radius: 5px;
+    position: relative;
+    width: 100%;  
+}
+
+.content p{
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.content{
+    padding: 5px;
+    background-color: wheat;
+}
+
+.sidebar{
+	min-width: 200px;
+    padding: 15px;
+	margin: 10px 0px 0px 0px;
+    
+}
+
+.nav {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+} 
+
+.nav a {
+    font-family: 'Saira Condensed', sans-serif;
+    float: left;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+  
+.dropdown .button {
+    cursor: pointer;
+    font-size: 18px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: 'Saira Condensed', sans-serif;
+    margin: 0;
+}
+  
+.nav a:hover, .dropdown:hover .button, .button:focus {
+    background-color: gray;
+}
+  
+.menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 6px 14px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.menu a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+  
+.menu a:hover {
+    background-color: #ddd;
+}
+  
+.reveal {
+    display: block;
+}
+
+#input input{
+    background-color: blue;
+    color:white;
+    border-style:outset;
+    border-color:#161214;
+    height:50px;
+    width:100px;
+    text-shadow: rgb(8, 8, 8);
+}
+
+#input form{
+    width: 100px;
+    height: 50px;
+    padding-bottom: 12px;
+    border: none;
+}
+
+input:hover{
+    background: gray;
+    color:#fff;    
+}
+
+#img {
+    width: 100%;
+    text-align: center;
+}
+
+#img img{
+    width: 23%;
+    border-radius: 10px;
+}
+
+ #designimage img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+em{
+    font-weight: bold;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    border: 3px solid wheat;
+    border-radius: 3px;
+    padding: 18px;
+}
+
+#input form{
+    margin-top: 0px;
+}
+
+form label{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+    float: left;
+}
+
+#coursesimage img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+#rules a{
+    text-decoration: underline;
+    color: black;
+}
+
+h3{
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+#rules h3{
+    text-align: center;
+}
+
+.content h2{
+    text-decoration: underline;
+}
+
+#goBack{
+    padding-bottom: 5px;
+}
+
+.container p{
+    padding-left: 10px;
+}
+
+.content ul li{
+    padding-top: 14px;
+    font-size: 18px;
+}
+
+.facilities-container{
+    max-width: 1200px;
+    position: relative;
+}
+
+.slideShow{
+    width: 100%;
+    border: 1px solid black;
+}
+
+#facilities-btn{ 
+    padding: 5px;
+    text-align: center;
+    position: relative; 
+}
+
+#facilities-btn button{
+    background-color: whitesmoke;
+    border-radius: 50px;
+}
+
+#facilities-btn button:hover{
+    background-color: red;
+}
+
+
+.content img{
+    width: 100%;
+}
+
+
+
+
